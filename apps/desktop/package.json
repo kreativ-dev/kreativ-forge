@@ -1,0 +1,29 @@
+{
+  "name": "@forge/desktop",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@forge/schema": "workspace:*",
+    "@forge/core": "workspace:*",
+    "@forge/stage": "workspace:*",
+    "@forge/manifest": "workspace:*",
+    "@forge/presets": "workspace:*",
+    "@forge/templates": "workspace:*",
+    "@forge/render-worker": "workspace:*",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "electron": "^33",
+    "electron-vite": "^2",
+    "electron-builder": "^25",
+    "@vitejs/plugin-react": "^4"
+  }
+}

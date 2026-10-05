@@ -1,0 +1,12 @@
+appId: dev.felix.kreativforge
+productName: Kreativ Forge
+directories:
+  output: release
+files:
+  - out/**/*
+mac:
+  category: public.app-category.video
+win:
+  target: nsis
+linux:
+  target: AppImage
